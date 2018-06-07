@@ -1,0 +1,44 @@
+.plane-icon {
+    width:20px;
+    height:20px;
+}
+
+.left-direction {
+    transform: rotate(260deg);
+}
+
+.right-direction {
+    transform: rotate(360deg);
+}
+
+.alert:empty {
+	display: none;
+}
+
+.alert {
+	animation-name: showError;
+	animation-duration: .3s;
+	perspective: 2000px;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	background: $red;
+	width: 100%;
+	color: $white;
+	padding: 20px;
+}
+
+
+@keyframes showError {
+	from {
+		opacity: 0;
+    	transform-style: preserve-3d;
+    	transform: rotateY(-60deg);}
+    to {opacity: 1;}
+}
+
+td {
+	cursor: pointer;
+}

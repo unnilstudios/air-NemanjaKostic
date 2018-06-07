@@ -1,0 +1,67 @@
+
+/* Content styles about page */
+.md-content {
+	color: $white;
+	background: $light-red;
+	position: relative;
+	border-radius: 3px;
+	width: 100%;
+}
+//
+.md-content h3 {
+	margin: 0;
+	padding: 0.4em;
+	text-align: center;
+	font-size: 2.4em;
+	font-weight: 300;
+	opacity: 0.8;
+	background: rgba(0,0,0,0.1);
+	border-radius: 3px 3px 0 0;
+}
+//
+.md-content > div {
+	padding: 15px 40px 30px;
+	margin: 0;
+	font-weight: 300;
+	font-size: 1.15em;
+}
+//
+.md-content > div p {
+	margin: 0;
+	padding: 10px 0;
+}
+
+.md-content > div ul {
+	margin: 0;
+	padding: 0 0 30px 20px;
+	list-style-type: none;
+}
+
+.md-content > div ul li {
+	//padding: 5px 0;
+	position: relative;
+	display: block;
+	padding: .75rem 1.25rem;
+	margin-bottom: -1px;
+	border: 1px solid rgba(0,0,0,.125);
+}
+
+
+.my-badge {
+	padding: .25em .4em;
+	font-size: 75%;
+	font-weight: 700;
+	line-height: 1;
+	text-align: center;
+	vertical-align: baseline;
+	border-radius: .25rem;
+	color: $white;
+	background-color: $blue;
+}
+
+.logo-brand {
+	width: 80px;
+	heigth: 80px;
+	display: block;
+	margin: 0 auto 20px;
+}

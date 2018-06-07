@@ -1,0 +1,11 @@
+@import "_variables";
+@import "_home";
+@import "_about";
+@import "_loader";
+@import "_footer";
+
+body {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 100px;
+}
